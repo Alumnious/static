@@ -3,6 +3,6 @@ from htmlnode import *
 from functions import *
 
 def main():
-    temp = TextNode("This is the text",TextType.BOLD,"https://www.boot.dev")
-    print(temp)
+    copy_static()
+    generate_page_recursive("content", "template.html", "public")
 main()
